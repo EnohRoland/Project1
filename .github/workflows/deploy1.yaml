@@ -10,6 +10,7 @@ env:
   MONGO_DB_NAME: gha-demo
   MONGO_CLUSTER_ADDRESS: goshenignite.g1ekm5d.mongodb.net
   MONGO_USERNAME: rolandenoh
+  MONGO_PASSWORD: AcceptJesusNow@1
   PORT: 8080
 
 jobs:
