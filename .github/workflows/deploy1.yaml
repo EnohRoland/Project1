@@ -9,8 +9,8 @@ on:
 env:
   MONGODB_DB_NAME: gha-demo
   MONGODB_CLUSTER_ADDRESS: goshenignite.g1ekm5d.mongodb.net
-  MONGODB_USERNAME: rolandenoh
-  MONGODB_PASSWORD: 6AZv5meTTr4oG48q
+  MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+  MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
   PORT: 8080
 
 jobs:
