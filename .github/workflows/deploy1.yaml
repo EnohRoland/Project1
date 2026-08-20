@@ -10,7 +10,7 @@ env:
   MONGODB_DB_NAME: gha-demo
   MONGODB_CLUSTER_ADDRESS: goshenignite.g1ekm5d.mongodb.net
   MONGODB_USERNAME: rolandenoh
-  MONGODB_PASSWORD: AcceptJesusNow@1
+  MONGODB_PASSWORD: AcceptJesusNow
   PORT: 8080
 
 jobs:
